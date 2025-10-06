@@ -27,5 +27,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: rag-web-app-leela  # 👈 make sure this matches your Azure Web App name
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
